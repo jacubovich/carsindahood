@@ -1,0 +1,73 @@
+body {
+    background-image: url(thumbnaails/bmw_fary_podsvetka_137326_3840x2400.jpg);
+    background-size: cover;
+    
+
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    size: 50px;
+    font-family: sans-serif;
+    border-radius: 10px;
+}
+
+li {
+    float: right;
+    cursor: pointer;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: background-color 0.4s;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+li a:hover(.active) {
+    background-color: #1f78ff;
+}
+
+.active {
+    background-color: #5295fa;
+
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: white;
+}
+
+.p1 {
+    margin-top: 300px;
+    font-size: 75px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.p2 {
+    font-size: 30px;
+    margin-bottom: 300px;
+}
+
+.p3 {
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+.p4 {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
